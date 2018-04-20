@@ -97,7 +97,7 @@ export class AwsServerGroupConfigurationService {
     'GroupTerminatingInstances',
     'GroupTotalInstances',
   ];
-  private healthCheckTypes = ['EC2', 'ELB'];
+  private healthCheckTypes = ['EC2', 'ELB', 'Consul'];
   private terminationPolicies = [
     'OldestInstance',
     'NewestInstance',
